@@ -9679,15 +9679,15 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="FDD8780" value="FDD8780 or FDD8451"/>
 <part name="Q2" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="BSS138" value="BSS138 - 200mA/50V"/>
-<part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="0R"/>
-<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="0R"/>
-<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="0R"/>
-<part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="0R"/>
+<part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10k"/>
+<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10R"/>
+<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10R"/>
+<part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="DGND" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="DGND" device=""/>
 <part name="Q3" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="FDD8780" value="FDD8780 or FDD8451"/>
-<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="0R"/>
-<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="0R"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10R"/>
+<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="DGND" device=""/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="DGND" device=""/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="DGND" device=""/>
@@ -9700,6 +9700,10 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <plain>
 <text x="58.42" y="48.26" size="1.778" layer="97">High Current</text>
 <text x="22.86" y="137.16" size="1.778" layer="97">Low Current (200mA max)</text>
+<text x="129.54" y="86.36" size="1.778" layer="97">Photon: PWM is available on D0, D1, D2, D3, A4, A5, WKP, RX, TX</text>
+<text x="129.54" y="78.74" size="1.778" layer="97">Photon &amp; Electron: PWM timer peripheral is duplicated on two pins (A5/D2) and (A4/D3) for 7 total independent PWM outputs</text>
+<text x="129.54" y="83.82" size="1.778" layer="97">Electron: PWM is available on D0, D1, D2, D3, B0, B1, B2, B3, A4, A5, WKP, RX, TX</text>
+<text x="129.54" y="76.2" size="1.778" layer="97">PWM may be used on A4 while D3 is used as a GPIO</text>
 </plain>
 <instances>
 <instance part="CONN1" gate="G$1" x="33.02" y="162.56"/>
@@ -10120,15 +10124,12 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <errors>
 <approved hash="104,1,124.46,137.16,U$2,VIN,5V,,,"/>
 <approved hash="104,1,147.32,137.16,U$2,3V3,3.3V,,,"/>
-<approved hash="104,1,88.9,71.12,U1,VS,3.3V,,,"/>
 <approved hash="106,1,147.32,132.08,N$6,,,,,"/>
 <approved hash="106,1,147.32,134.62,N$7,,,,,"/>
 <approved hash="106,1,147.32,127,N$11,,,,,"/>
 <approved hash="106,1,147.32,124.46,N$15,,,,,"/>
 <approved hash="106,1,147.32,121.92,N$16,,,,,"/>
 <approved hash="106,1,147.32,119.38,N$20,,,,,"/>
-<approved hash="106,1,147.32,116.84,N$21,,,,,"/>
-<approved hash="106,1,147.32,114.3,N$22,,,,,"/>
 <approved hash="106,1,147.32,106.68,N$23,,,,,"/>
 <approved hash="106,1,147.32,104.14,N$24,,,,,"/>
 <approved hash="106,1,147.32,101.6,N$25,,,,,"/>
@@ -10145,16 +10146,12 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <approved hash="106,1,124.46,111.76,N$40,,,,,"/>
 <approved hash="106,1,124.46,114.3,N$41,,,,,"/>
 <approved hash="106,1,124.46,116.84,N$42,,,,,"/>
-<approved hash="106,1,124.46,119.38,N$43,,,,,"/>
 <approved hash="106,1,124.46,121.92,N$44,,,,,"/>
 <approved hash="106,1,124.46,124.46,N$45,,,,,"/>
 <approved hash="106,1,124.46,127,N$46,,,,,"/>
 <approved hash="106,1,124.46,129.54,N$47,,,,,"/>
 <approved hash="106,1,124.46,132.08,N$48,,,,,"/>
 <approved hash="113,1,29.4047,79.4173,JP1,,,,,"/>
-<approved hash="113,1,31.5553,98.3827,JP2,,,,,"/>
-<approved hash="113,1,99.06,104.627,D1,,,,,"/>
-<approved hash="113,1,22.3732,162.56,D2,,,,,"/>
 </errors>
 </schematic>
 </drawing>
