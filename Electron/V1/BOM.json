@@ -1,45 +1,45 @@
 {
-'Version':'1',
-'Product':'"Quad FETS',
-parts: [
+"version":"1",
+"product":"Quad FETS",
+"parts": [
 
-*{'name':'JP1', 'value':'5 way terminal block header', 'FarnellPart':'2493692', 'price': 0.182},
-*{'name':'JP1b', 'value':'5 way terminal block pluggable, 12 AWG', 'FarnellPart':'2493640', 'price': 0.47},
+{"name":"JP1", "value":"5 way terminal block header", "farnellPart":"2493692", "price": 0.182},
+{"name":"JP1b", "value":"5 way terminal block pluggable, 12 AWG", "farnellPart":"2493640", "price": 0.47},
 
-*{'name':'C3', 'value':'0.1uF', case: '0805', 'FarnellPart':['1759167','2310668', '2310707'], 'price':0.0045},
+{"name":"C3", "value":"0.1uF", "case": "0805", "farnellPart":["1759167","2310668", "2310707"], "price":0.0045},
 
-*{'name':'R13', 'value':'1k5', case: '1206', 'comment': 'bottom layer - optional', 'FarnellPart':['9335951','2129658'], 'price':0.0013},
-*{'name':'R13', 'value':'1k5', case: '0805', 'comment': 'bottom layer - optional', 'FarnellPart':['9332600','2129125'], 'price':0.0008},
-*{'name':'D5', 'value':'reverse LED - Green.', 'comment': 'bottom layer - optional', 'FarnellPart':'2217905', 'price':0.111 },
-*{'name':'D5', 'value':'reverse LED - Blue.', 'comment': 'bottom layer - optional', 'FarnellPart':'2217907', 'price':0.23 },
+{"name":"R13", "value":"1k5", "case": "1206", "comment": "bottom layer - optional", "farnellPart":["9335951","2129658"], "price":0.0013},
+{"name":"R13", "value":"1k5", "case": "0805", "comment": "bottom layer - optional", "farnellPart":["9332600","2129125"], "price":0.0008},
+{"name":"D5", "value":"reverse LED - Green.", "comment": "bottom layer - optional", "farnellPart":"2217905", "price":0.111 },
+{"name":"D5", "value":"reverse LED - Blue.", "comment": "bottom layer - optional", "farnellPart":"2217907", "price":0.23 },
 
-{'name':'D1', 'value':'Blue LED.', 'case':'0805', 'comment': '0805 to fit on 1206 pads', 'FarnellPart':'1716765', 'price':0.237 },
+{"name":"D1", "value":"Blue LED.", "case":"0805", "comment": "0805 to fit on 1206 pads", "farnellPart":"1716765", "price":0.237 },
 
-{'name':'R1', 'value':'10k', case: '0805', 'FarnellPart':['9332391','2129195'], 'MfgPartNo':'MC01W0805110k', 'price':0.0009},
-{'name':'R2', 'value':'10R', case: '0805', 'FarnellPart':['9332421','2128957'], 'price':0.0008},
-{'name':'R3', 'value':'1k5', case: '0805', 'comment': 'bottom layer - optional', 'FarnellPart':['9332600','2129125'], 'price':0.0008},
+{"name":"R1", "value":"10k", "case": "0805", "farnellPart":["9332391","2129195"], "mfgPartNo":"MC01W0805110k", "price":0.0009},
+{"name":"R2", "value":"10R", "case": "0805", "farnellPart":["9332421","2128957"], "price":0.0008},
+{"name":"R3", "value":"1k5", "case": "0805", "comment": "bottom layer - optional", "farnellPart":["9332600","2129125"], "price":0.0008},
 
-{'name':'R4', 'value':'10k', case: '0805', 'FarnellPart':['9332391','2129195'], 'MfgPartNo':'MC01W0805110k', 'price':0.0009},
-{'name':'R5', 'value':'10R', case: '0805', 'FarnellPart':['9332421','2128957'], 'price':0.0008},
-{'name':'R6', 'value':'1k5', case: '0805', 'comment': 'bottom layer - optional', 'FarnellPart':['9332600','2129125'], 'price':0.0008},
+{"name":"R4", "value":"10k", "case": "0805", "farnellPart":["9332391","2129195"], "mfgPartNo":"MC01W0805110k", "price":0.0009},
+{"name":"R5", "value":"10R", "case": "0805", "farnellPart":["9332421","2128957"], "price":0.0008},
+{"name":"R6", "value":"1k5", "case": "0805", "comment": "bottom layer - optional", "farnellPart":["9332600","2129125"], "price":0.0008},
 
-{'name':'R7', 'value':'10k', case: '0805', 'FarnellPart':['9332391','2129195'], 'MfgPartNo':'MC01W0805110k', 'price':0.0009},
-{'name':'R8', 'value':'10R', case: '0805', 'FarnellPart':['9332421','2128957'], 'price':0.0008},
-{'name':'R9', 'value':'1k5', case: '0805', 'comment': 'bottom layer - optional', 'FarnellPart':['9332600','2129125'], 'price':0.0008},
+{"name":"R7", "value":"10k", "case": "0805", "farnellPart":["9332391","2129195"], "mfgPartNo":"MC01W0805110k", "price":0.0009},
+{"name":"R8", "value":"10R", "case": "0805", "farnellPart":["9332421","2128957"], "price":0.0008},
+{"name":"R9", "value":"1k5", "case": "0805", "comment": "bottom layer - optional", "farnellPart":["9332600","2129125"], "price":0.0008},
 
-{'name':'R10', 'value':'10k', case: '0805', 'FarnellPart':['9332391','2129195'], 'MfgPartNo':'MC01W0805110k', 'price':0.0009},
-{'name':'R11', 'value':'10R', case: '0805', 'FarnellPart':['9332421','2128957'], 'price':0.0008},
-{'name':'R12', 'value':'1k5', case: '0805', 'comment': 'bottom layer - optional', 'FarnellPart':['9332600','2129125'], 'price':0.0008},
+{"name":"R10", "value":"10k", "case": "0805", "farnellPart":["9332391","2129195"], "mfgPartNo":"MC01W0805110k", "price":0.0009},
+{"name":"R11", "value":"10R", "case": "0805", "farnellPart":["9332421","2128957"], "price":0.0008},
+{"name":"R12", "value":"1k5", "case": "0805", "comment": "bottom layer - optional", "farnellPart":["9332600","2129125"], "price":0.0008},
 
-{'name':'Q1', 'value':'FDD8451, 40V 28A N-Channel FET 0R019 on resistance', case: 'TO-252', 'FarnellPart':['2322587'], 'price':0.369},
-{'name':'Q2', 'value':'FDD8451, 40V 28A N-Channel FET 0R019 on resistance', case: 'TO-252', 'FarnellPart':['2322587'], 'price':0.369},
-{'name':'Q3', 'value':'FDD8451, 40V 28A N-Channel FET 0R019 on resistance', case: 'TO-252', 'FarnellPart':['2322587'], 'price':0.369},
-{'name':'Q4', 'value':'FDD8451, 40V 28A N-Channel FET 0R019 on resistance', case: 'TO-252', 'FarnellPart':['2322587'], 'price':0.369},
+{"name":"Q1", "value":"FDD8451, 40V 28A N-Channel FET 0R019 on resistance", "case": "TO-252", "farnellPart":["2322587"], "price":0.369},
+{"name":"Q2", "value":"FDD8451, 40V 28A N-Channel FET 0R019 on resistance", "case": "TO-252", "farnellPart":["2322587"], "price":0.369},
+{"name":"Q3", "value":"FDD8451, 40V 28A N-Channel FET 0R019 on resistance", "case": "TO-252", "farnellPart":["2322587"], "price":0.369},
+{"name":"Q4", "value":"FDD8451, 40V 28A N-Channel FET 0R019 on resistance", "case": "TO-252", "farnellPart":["2322587"], "price":0.369},
 
-*{'name':'D6', 'value':'MBRA140T3G', 'FarnellPart':'9555986', 'price': 0.106},
+{"name":"D6", "value":"MBRA140T3G", "farnellPart":"9555986", "price": 0.106},
 
-*{'name':'CONN1', 'value':'USB connector', 'Price': '', 'FarnellPart':'2476092', 'MfgPartNo':'MC000991', 'price':0.35 },
-*{'name':'U2', 'value':'Photon', 'comment':'User supplied. Photon, Electron or Bluz'},
-*{'name':'U2a', 'value':'12 Way Header',  'FarnellPart':'1593465' 'comment':'User supplied. Photon, Electron or Bluz', 'quantity':'2', 'price':0.0911'},
-*{'name':'U2a', 'value':'18 Way Header', 'FarnellPart':'1801220', 'comment':'Optional, use for Electron', 'quantity':'2', 'price':1.11},
+{"name":"CONN1", "value":"USB connector", "Price": "", "farnellPart":"2476092", "mfgPartNo":"MC000991", "price":0.35 },
+{"name":"U2", "value":"Photon", "comment":"User supplied. Photon, Electron or Bluz"},
+{"name":"U2a", "value":"12 Way Header",  "farnellPart":"1593465", "comment":"User supplied. Photon, Electron or Bluz", "quantity":"2", "price":0.0911},
+{"name":"U2a", "value":"18 Way Header", "farnellPart":"1801220", "comment":"Optional, use for Electron", "quantity":"2", "price":1.11}
 ]}
