@@ -9390,25 +9390,28 @@ Rebel - DIO-09553&lt;br&gt;
 for 7 total independent PWM outputs</text>
 <text x="78.74" y="111.76" size="1.778" layer="97">Electron: PWM is available on D0, D1, D2, D3, B0, B1, B2, B3, A4, A5, WKP, RX, TX</text>
 <text x="78.74" y="99.06" size="1.778" layer="97">PWM may be used on A4 while D3 is used as a GPIO</text>
-<wire x1="73.66" y1="63.5" x2="175.26" y2="63.5" width="0.1524" layer="97"/>
-<wire x1="175.26" y1="63.5" x2="175.26" y2="12.7" width="0.1524" layer="97"/>
-<wire x1="175.26" y1="12.7" x2="2.54" y2="12.7" width="0.1524" layer="97"/>
-<wire x1="2.54" y1="12.7" x2="2.54" y2="63.5" width="0.1524" layer="97"/>
-<wire x1="177.8" y1="63.5" x2="271.78" y2="63.5" width="0.1524" layer="97"/>
-<wire x1="271.78" y1="63.5" x2="271.78" y2="33.02" width="0.1524" layer="97"/>
-<wire x1="271.78" y1="33.02" x2="177.8" y2="33.02" width="0.1524" layer="97"/>
-<wire x1="177.8" y1="33.02" x2="177.8" y2="63.5" width="0.1524" layer="97"/>
-<wire x1="195.58" y1="185.42" x2="271.78" y2="185.42" width="0.1524" layer="97"/>
-<wire x1="271.78" y1="185.42" x2="271.78" y2="152.4" width="0.1524" layer="97"/>
-<wire x1="271.78" y1="152.4" x2="195.58" y2="152.4" width="0.1524" layer="97"/>
-<wire x1="195.58" y1="152.4" x2="195.58" y2="185.42" width="0.1524" layer="97"/>
-<wire x1="76.2" y1="187.96" x2="190.5" y2="187.96" width="0.1524" layer="97"/>
-<wire x1="190.5" y1="187.96" x2="190.5" y2="93.98" width="0.1524" layer="97"/>
-<wire x1="190.5" y1="93.98" x2="76.2" y2="93.98" width="0.1524" layer="97"/>
+<wire x1="73.66" y1="91.44" x2="177.8" y2="91.44" width="0.1524" layer="97"/>
+<wire x1="177.8" y1="91.44" x2="177.8" y2="12.7" width="0.1524" layer="97"/>
+<wire x1="177.8" y1="12.7" x2="2.54" y2="12.7" width="0.1524" layer="97"/>
+<wire x1="195.58" y1="121.92" x2="271.78" y2="121.92" width="0.1524" layer="97"/>
+<wire x1="271.78" y1="121.92" x2="271.78" y2="93.98" width="0.1524" layer="97"/>
+<wire x1="271.78" y1="93.98" x2="195.58" y2="93.98" width="0.1524" layer="97"/>
+<wire x1="195.58" y1="93.98" x2="195.58" y2="121.92" width="0.1524" layer="97"/>
+<wire x1="195.58" y1="187.96" x2="271.78" y2="187.96" width="0.1524" layer="97"/>
+<wire x1="271.78" y1="187.96" x2="271.78" y2="154.94" width="0.1524" layer="97"/>
+<wire x1="271.78" y1="154.94" x2="195.58" y2="154.94" width="0.1524" layer="97"/>
+<wire x1="195.58" y1="154.94" x2="195.58" y2="187.96" width="0.1524" layer="97"/>
+<wire x1="76.2" y1="187.96" x2="193.04" y2="187.96" width="0.1524" layer="97"/>
+<wire x1="193.04" y1="187.96" x2="193.04" y2="93.98" width="0.1524" layer="97"/>
+<wire x1="193.04" y1="93.98" x2="76.2" y2="93.98" width="0.1524" layer="97"/>
 <wire x1="76.2" y1="93.98" x2="76.2" y2="187.96" width="0.1524" layer="97"/>
-<wire x1="73.66" y1="63.5" x2="73.66" y2="187.96" width="0.1524" layer="97"/>
+<wire x1="73.66" y1="91.44" x2="73.66" y2="187.96" width="0.1524" layer="97"/>
 <wire x1="73.66" y1="187.96" x2="2.54" y2="187.96" width="0.1524" layer="97"/>
-<wire x1="2.54" y1="187.96" x2="2.54" y2="63.5" width="0.1524" layer="97"/>
+<wire x1="2.54" y1="187.96" x2="2.54" y2="12.7" width="0.1524" layer="97"/>
+<wire x1="195.58" y1="152.4" x2="271.78" y2="152.4" width="0.1524" layer="97"/>
+<wire x1="271.78" y1="152.4" x2="271.78" y2="124.46" width="0.1524" layer="97"/>
+<wire x1="271.78" y1="124.46" x2="195.58" y2="124.46" width="0.1524" layer="97"/>
+<wire x1="195.58" y1="124.46" x2="195.58" y2="152.4" width="0.1524" layer="97"/>
 </plain>
 <instances>
 <instance part="CONN1" gate="G$1" x="241.3" y="165.1"/>
@@ -9417,7 +9420,7 @@ for 7 total independent PWM outputs</text>
 <instance part="JP1" gate="G$1" x="10.16" y="172.72"/>
 <instance part="SUPPLY2" gate="G$1" x="106.68" y="167.64"/>
 <instance part="GND2" gate="G$1" x="101.6" y="157.48"/>
-<instance part="H1" gate="G$1" x="180.34" y="78.74"/>
+<instance part="H1" gate="G$1" x="200.66" y="147.32"/>
 <instance part="SUPPLY4" gate="G$1" x="144.78" y="167.64"/>
 <instance part="U2" gate="G$1" x="127" y="144.78"/>
 <instance part="GND3" gate="G$1" x="149.86" y="152.4"/>
@@ -9437,10 +9440,10 @@ for 7 total independent PWM outputs</text>
 <instance part="GND6" gate="G$1" x="104.14" y="22.86"/>
 <instance part="GND7" gate="G$1" x="40.64" y="30.48"/>
 <instance part="GND8" gate="G$1" x="114.3" y="30.48"/>
-<instance part="D5" gate="G$1" x="210.82" y="53.34" rot="R270"/>
-<instance part="LOGO1" gate="G$1" x="248.92" y="50.8"/>
-<instance part="R13" gate="G$1" x="220.98" y="53.34" rot="R180"/>
-<instance part="GND11" gate="G$1" x="200.66" y="45.72"/>
+<instance part="D5" gate="G$1" x="210.82" y="111.76" rot="R270"/>
+<instance part="LOGO1" gate="G$1" x="248.92" y="109.22"/>
+<instance part="R13" gate="G$1" x="220.98" y="111.76" rot="R180"/>
+<instance part="GND11" gate="G$1" x="200.66" y="104.14"/>
 <instance part="D2" gate="G$1" x="86.36" y="25.4" rot="R270"/>
 <instance part="D1" gate="G$1" x="12.7" y="25.4" rot="R270"/>
 <instance part="R3" gate="G$1" x="17.78" y="33.02" rot="R270"/>
@@ -9471,8 +9474,8 @@ for 7 total independent PWM outputs</text>
 <instance part="D3" gate="G$1" x="15.24" y="116.84" rot="R270"/>
 <instance part="R9" gate="G$1" x="20.32" y="124.46" rot="R270"/>
 <instance part="GND18" gate="G$1" x="7.62" y="111.76"/>
-<instance part="H3" gate="G$1" x="180.34" y="68.58"/>
-<instance part="H4" gate="G$1" x="180.34" y="73.66"/>
+<instance part="H3" gate="G$1" x="200.66" y="139.7"/>
+<instance part="H4" gate="G$1" x="200.66" y="132.08"/>
 </instances>
 <busses>
 </busses>
@@ -9522,8 +9525,8 @@ for 7 total independent PWM outputs</text>
 </segment>
 <segment>
 <pinref part="D5" gate="G$1" pin="C"/>
-<wire x1="205.74" y1="53.34" x2="200.66" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="53.34" x2="200.66" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="111.76" x2="200.66" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="111.76" x2="200.66" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="G$1" pin="GND"/>
 </segment>
 <segment>
@@ -9871,8 +9874,8 @@ for 7 total independent PWM outputs</text>
 <net name="D7" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="226.06" y1="53.34" x2="231.14" y2="53.34" width="0.1524" layer="91"/>
-<label x="231.14" y="53.34" size="1.27" layer="95" xref="yes"/>
+<wire x1="226.06" y1="111.76" x2="231.14" y2="111.76" width="0.1524" layer="91"/>
+<label x="231.14" y="111.76" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="D7"/>
@@ -9884,7 +9887,7 @@ for 7 total independent PWM outputs</text>
 <segment>
 <pinref part="D5" gate="G$1" pin="A"/>
 <pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="213.36" y1="53.34" x2="215.9" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="111.76" x2="215.9" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
